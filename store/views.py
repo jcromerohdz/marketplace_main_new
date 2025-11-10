@@ -29,3 +29,4 @@ def detail(request, pk):
     }
 
     return render(request, 'store/item.html', context)
+
